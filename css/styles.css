@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.62rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px auto;
+}
+
+.bottom-container {
+  height: 200px;
+  background-color: #66BFBF;
+  line-height: 3;
+  padding-top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bio {
+  height: 150px;
+}
+
+.footer-link {
+  color: #11999E;
+  margin: 0 20px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px;
+  text-align: left;
+}
+
+.skills {
+  margin: 50px;
+}
+
+.development-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.student-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+hr {
+  width: 10%;
+  border-style: dotted none none none;
+  border-width: 10px;
+  border-color: #EAF6F6;
+  margin: 100px auto 100px auto;
+}
+
+.copyright {
+  color: #EAF6F6;
+}
+
+.contact-me {
+  line-height: 3;
+}
+
+p {
+  margin-bottom: 50px;
+  line-height: 2;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.btn {
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+	background-color:#63b8ee;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;
+	cursor:pointer;
+	color:#14396a;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #7cacde;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
+	background-color:#468ccf;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
